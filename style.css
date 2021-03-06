@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.bg {
+    background: url('https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height:calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
